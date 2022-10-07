@@ -1,0 +1,759 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.5f1 (40eb3a945986) revision 4254522'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'es' Physical Memory: 16238 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Hub\Editor\2021.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Shadow/Documents/UnityProjects/Quest2Template
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60630
+Successfully changed project path to: C:/Users/Shadow/Documents/UnityProjects/Quest2Template
+C:/Users/Shadow/Documents/UnityProjects/Quest2Template
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 354.28 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 3.01 ms.
+Initialize engine version: 2021.3.5f1 (40eb3a945986)
+[Subsystems] Discovering subsystems at path C:/Program Files/Hub/Editor/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Shadow/Documents/UnityProjects/Quest2Template/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c8c)
+    Vendor:   NVIDIA
+    VRAM:     4021 MB
+    Driver:   30.0.15.1179
+Initialize mono
+Mono path[0] = 'C:/Program Files/Hub/Editor/2021.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56972
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.017728 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 211.85 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.476 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1477ms)
+		BeginReloadAssembly (185ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1042ms)
+			LoadAssemblies (176ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (226ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (645ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (117ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (212ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (205ms)
+				ProcessInitializeOnLoadMethodAttributes (108ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.035753 seconds.
+Android Extension - Scanning For ADB Devices 5634 ms
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Shadow\Documents\UnityProjects\Quest2Template\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Shadow\Documents\UnityProjects\Quest2Template\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 207.70 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Package Manager log level set to [2]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\Shadow\Documents\UnityProjects\Quest2Template\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:271 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Shadow\Documents\UnityProjects\Quest2Template\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:256 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <1f0be198f5164d2489de92f22c998266>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.713 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2715ms)
+		BeginReloadAssembly (244ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (20ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (2221ms)
+			LoadAssemblies (197ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (647ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (105ms)
+			SetupLoadedEditorAssemblies (1172ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (208ms)
+				BeforeProcessingInitializeOnLoad (256ms)
+				ProcessInitializeOnLoadAttributes (590ms)
+				ProcessInitializeOnLoadMethodAttributes (70ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 1.36 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+Unloading 4313 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (112.0 KB). Loaded Objects now: 4758.
+Memory consumption went from 150.0 MB to 149.9 MB.
+Total: 34.728000 ms (FindLiveObjects: 0.557500 ms CreateObjectMapping: 0.425700 ms MarkObjects: 33.446000 ms  DeleteObjects: 0.296400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 685686.455413 seconds.
+  path: Assets/Flashlight/Flashlight_Gold/Textures/FlashLight_SpecGlossAGold.tga
+  artifactKey: Guid(35016636b78f2c44ebb0b01130e4e895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Flashlight_Gold/Textures/FlashLight_SpecGlossAGold.tga using Guid(35016636b78f2c44ebb0b01130e4e895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4953a4dab138ebca156205ef6221a8cc') in 0.561273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.044903 seconds.
+  path: Assets/Models/Animation/Close.anim
+  artifactKey: Guid(6c8f621ca61af514b93791dd93b29501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animation/Close.anim using Guid(6c8f621ca61af514b93791dd93b29501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '749c0b749d260b709880de6aaf26c02a') in 0.019294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015763 seconds.
+  path: Assets/Flashlight/Materials/FlashlightLensMaterial.mat
+  artifactKey: Guid(140db2315bb006848a12d719229080a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Materials/FlashlightLensMaterial.mat using Guid(140db2315bb006848a12d719229080a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a90306161cc0486455fe9dcdccaf34ec') in 0.339545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002927 seconds.
+  path: Assets/Flashlight/Textures
+  artifactKey: Guid(c87203724062b8b47812e372fcd39fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Textures using Guid(c87203724062b8b47812e372fcd39fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afb847275556bc4ba02809299221e713') in 0.011143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012336 seconds.
+  path: Assets/XR
+  artifactKey: Guid(ce51da2533a03714aa47f34a60b5952b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR using Guid(ce51da2533a03714aa47f34a60b5952b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b209a556103f8843e1e81ac8c1987a93') in 0.009753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012544 seconds.
+  path: Assets/Flashlight/Flashlight_Gold/Flashlight.prefab
+  artifactKey: Guid(d86ca2f4159e6a942abd8dfc52b38395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Flashlight_Gold/Flashlight.prefab using Guid(d86ca2f4159e6a942abd8dfc52b38395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c90c1969a553199e888ada69f456f1c7') in 0.292378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007844 seconds.
+  path: Assets/Low Poly Free Vegetation Kit/Meshes/Stumps.fbx
+  artifactKey: Guid(480d29c512ed7c94c84fd730bfb23246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Free Vegetation Kit/Meshes/Stumps.fbx using Guid(480d29c512ed7c94c84fd730bfb23246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8254064483cc32f6baf1154dddce7ff0') in 0.159658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.065764 seconds.
+  path: Assets/Flashlight/Textures/Flashlight_Cookie2.png
+  artifactKey: Guid(b66976fe27dd03b49b02412f777eb8b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Textures/Flashlight_Cookie2.png using Guid(b66976fe27dd03b49b02412f777eb8b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c36fe51f6b24303766e18560693296') in 0.049182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008467 seconds.
+  path: Assets/Low Poly Free Vegetation Kit/Meshes/Log.fbx
+  artifactKey: Guid(2fc4f35c395a8444a8864c11b6d62042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Free Vegetation Kit/Meshes/Log.fbx using Guid(2fc4f35c395a8444a8864c11b6d62042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8208e36b9afd52fc61213eb33bf0837') in 0.042295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.087821 seconds.
+  path: Assets/XRI/Settings
+  artifactKey: Guid(5496bb0dca3340f46b347976ea3a36ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI/Settings using Guid(5496bb0dca3340f46b347976ea3a36ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fcfd6735657f041899209d8cee78488') in 0.009725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.073630 seconds.
+  path: Assets/Flashlight/Flashlight_Gold/Textures/FlashLight_DFopac_Color.tga
+  artifactKey: Guid(e8a291073274e564c812f583317376bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Flashlight_Gold/Textures/FlashLight_DFopac_Color.tga using Guid(e8a291073274e564c812f583317376bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3164f91d5784bc03148b7f2d15eca5e') in 0.073239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006522 seconds.
+  path: Assets/FantasyHammerAndShield/FantasyHammerAndShield_3dModel/FantasyHammer_Unity.fbx
+  artifactKey: Guid(5600d0e359e32d54c9ecd43a2ad8b7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHammerAndShield/FantasyHammerAndShield_3dModel/FantasyHammer_Unity.fbx using Guid(5600d0e359e32d54c9ecd43a2ad8b7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2395cf09a9ebbef797b95d51a32af669') in 0.037320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006994 seconds.
+  path: Assets/Flashlight/Textures/Flashlight_Cookie3.png
+  artifactKey: Guid(7f4b9d678ae21f94cae37c27309b3bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Textures/Flashlight_Cookie3.png using Guid(7f4b9d678ae21f94cae37c27309b3bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a91e3a7c0090669d77893373af6cc059') in 0.025996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023218 seconds.
+  path: Assets/XR/Settings
+  artifactKey: Guid(a1048459f63d9ce45a222b5c27c47702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings using Guid(a1048459f63d9ce45a222b5c27c47702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c653021f5821c436ab1f7ea01bf0aec') in 0.003445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002116 seconds.
+  path: Assets/FantasyHammerAndShield
+  artifactKey: Guid(49cc184344d4e1f43b3680ac64a10876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHammerAndShield using Guid(49cc184344d4e1f43b3680ac64a10876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f683b0f3887b925e82880d9d8eb620') in 0.009737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005864 seconds.
+  path: Assets/FantasyHammerAndShield/FantasyHammerAndShield_MatTextures/Mat_FantasyShield.mat
+  artifactKey: Guid(a8c1ca233e04e2449a77394a814ddff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHammerAndShield/FantasyHammerAndShield_MatTextures/Mat_FantasyShield.mat using Guid(a8c1ca233e04e2449a77394a814ddff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97aaaf1a76c87595276c507af847575f') in 0.368053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015557 seconds.
+  path: Assets/Flashlight/Misc/Flashlight.fbm/FlashLight_GL.png
+  artifactKey: Guid(a73877e06a2ecd4439b6be4ac78f6b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Misc/Flashlight.fbm/FlashLight_GL.png using Guid(a73877e06a2ecd4439b6be4ac78f6b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '773ea703011855c91363d59ee81c9c7f') in 0.077935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.151273 seconds.
+  path: Assets/Flashlight/Textures/FlashLight_NM.png
+  artifactKey: Guid(89cebac462018be4da6232dd388e56c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Textures/FlashLight_NM.png using Guid(89cebac462018be4da6232dd388e56c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab85c844bc8ec5e6c656cc253dd3bfb') in 0.105373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/Flashlight/Flashlight_Gold
+  artifactKey: Guid(ee7c64208f84606499a8d6039f1fa598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Flashlight_Gold using Guid(ee7c64208f84606499a8d6039f1fa598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da520e6f2e86afc6b9aab7dd1ad3d30') in 0.011045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016230 seconds.
+  path: Assets/Flashlight/Misc/Flashlight.fbm/ReflMap_PS_sHDR_512.png
+  artifactKey: Guid(1544308f8fadcc14c8f6d438482b67b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Misc/Flashlight.fbm/ReflMap_PS_sHDR_512.png using Guid(1544308f8fadcc14c8f6d438482b67b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24330fd0602d3117e3720df12e3ca3ed') in 0.051327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015344 seconds.
+  path: Assets/Flashlight/Flashlight_Gold/Materials
+  artifactKey: Guid(5a2f5ccbbc4b37642a5a0125e8aa8fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Flashlight_Gold/Materials using Guid(5a2f5ccbbc4b37642a5a0125e8aa8fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28fa1a1ccdcf90ce340a6d91afbe82a2') in 0.011887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.070768 seconds.
+  path: Assets/Models/Animation/Hand Animator.controller
+  artifactKey: Guid(ea3181103fac7c14eaaa5f844c413c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animation/Hand Animator.controller using Guid(ea3181103fac7c14eaaa5f844c413c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4edb990fbb5e45aea436613b77d72f21') in 0.020942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025417 seconds.
+  path: Assets/Low Poly Free Vegetation Kit/Meshes/Water.fbx
+  artifactKey: Guid(c8c97c5e6fffa9e4596aeabe219fe18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Free Vegetation Kit/Meshes/Water.fbx using Guid(c8c97c5e6fffa9e4596aeabe219fe18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef4d23e3f80f46b8c5b243c27fd95dd') in 0.064118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008474 seconds.
+  path: Assets/Models/Animation/LeftHand.controller
+  artifactKey: Guid(58f7e41c194b78c43903b2844f7b600a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animation/LeftHand.controller using Guid(58f7e41c194b78c43903b2844f7b600a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84f17e5b352d031959c6b139ba6434d5') in 0.013055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034190 seconds.
+  path: Assets/Low Poly Free Vegetation Kit/Materials/Water.mat
+  artifactKey: Guid(94ea32e4f0f6cab4e98928aadb7d9992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Free Vegetation Kit/Materials/Water.mat using Guid(94ea32e4f0f6cab4e98928aadb7d9992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '259daaab98a13ecd7c17465de02ad3c5') in 0.019016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018087 seconds.
+  path: Assets/Flashlight/Flashlight_Gold/Textures/FlashLight_NM.png
+  artifactKey: Guid(b2de17c8cce784e4884c408f008d8311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Flashlight_Gold/Textures/FlashLight_NM.png using Guid(b2de17c8cce784e4884c408f008d8311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '724036e75bb047c32c98d86a15049f7a') in 0.076955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.111965 seconds.
+  path: Assets/Flashlight/Flashlight_Gold/FlashlightColor.prefab
+  artifactKey: Guid(ae07f5a7e50d802419d96b04791e8cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Flashlight_Gold/FlashlightColor.prefab using Guid(ae07f5a7e50d802419d96b04791e8cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d3059c4c13914df30de678f5767d44') in 0.278912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006178 seconds.
+  path: Assets/Flashlight/Materials/FlashlightBaseMaterial.mat
+  artifactKey: Guid(930adfdfdd9fafd469ffb427a452359d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Materials/FlashlightBaseMaterial.mat using Guid(930adfdfdd9fafd469ffb427a452359d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf9557514de7acc028b11e5cfd07bad') in 0.179185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004925 seconds.
+  path: Assets/FantasyHammerAndShield/FantasyHammerAndShield_MatTextures/Mat_FantasyHammer.mat
+  artifactKey: Guid(9b6e4b9363e4a7a4a8e9fc0f659ca419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHammerAndShield/FantasyHammerAndShield_MatTextures/Mat_FantasyHammer.mat using Guid(9b6e4b9363e4a7a4a8e9fc0f659ca419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e101e136f5761357f57ab0248d13cfdf') in 0.199460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027207 seconds.
+  path: Assets/Flashlight/Misc/Flashlight.FBX
+  artifactKey: Guid(9a3b57f0a1248be419dd9c4d54748512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Misc/Flashlight.FBX using Guid(9a3b57f0a1248be419dd9c4d54748512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d7e3048436ecd94daf6204dfc0c1636') in 0.037852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015634 seconds.
+  path: Assets/XR/Settings/OpenXR Package Settings.asset
+  artifactKey: Guid(e95ae865150d7cc42a664522d76eb3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings/OpenXR Package Settings.asset using Guid(e95ae865150d7cc42a664522d76eb3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09aba2c33c95fcbe9b662bdf5ea4f3fd') in 0.032179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.063610 seconds.
+  path: Assets/FantasyHammerAndShield/AnimControl_FantasyShield.controller
+  artifactKey: Guid(c5654459250b89d4bbb611d580d137cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHammerAndShield/AnimControl_FantasyShield.controller using Guid(c5654459250b89d4bbb611d580d137cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '468757efc7fdd158990658944c54e8f2') in 0.013116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028551 seconds.
+  path: Assets/Flashlight/Materials/Sky.mat
+  artifactKey: Guid(408ca907d469b494bbeeb603ab9e8527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Materials/Sky.mat using Guid(408ca907d469b494bbeeb603ab9e8527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77ccf43472439587cb9394c832ee5f6f') in 0.192696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002778 seconds.
+  path: Assets/FantasyHammerAndShield/FantasyHammerAndShield_3dModel
+  artifactKey: Guid(3fdc33aa20cc8ce49b6db8b5ef4f8cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHammerAndShield/FantasyHammerAndShield_3dModel using Guid(3fdc33aa20cc8ce49b6db8b5ef4f8cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eddb81c12327ddb467ba297f8671cda') in 0.010615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002217 seconds.
+  path: Assets/Samples/XR Interaction Toolkit
+  artifactKey: Guid(7af63cd246a56304faa675bade5a1a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit using Guid(7af63cd246a56304faa675bade5a1a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '902424d4854a9beabf6a80347e46c2c7') in 0.021751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.052686 seconds.
+  path: Assets/FantasyHammerAndShield/FantasyShield_FluctuationsChain.anim
+  artifactKey: Guid(91f428748e2378b4fbe325802140c91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHammerAndShield/FantasyShield_FluctuationsChain.anim using Guid(91f428748e2378b4fbe325802140c91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cd5b7f5771898c60ca54dae5cc437c7') in 0.012072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012778 seconds.
+  path: Assets/Flashlight/Textures/FlashLight_DFSA.png
+  artifactKey: Guid(122e558843c712249a4ba618a9bbc907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Textures/FlashLight_DFSA.png using Guid(122e558843c712249a4ba618a9bbc907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e59d99f6569365233d569deaa86e27') in 0.056091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012250 seconds.
+  path: Assets/Flashlight/Misc/Flashlight.fbm/LP_FlashLight_AL.png
+  artifactKey: Guid(fb80e2a02b443da40874b559bb5640bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Misc/Flashlight.fbm/LP_FlashLight_AL.png using Guid(fb80e2a02b443da40874b559bb5640bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56eb99011f091b4fa78ca5cd7cbfee40') in 0.086434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.039234 seconds.
+  path: Assets/Flashlight/Materials
+  artifactKey: Guid(7ca321a86db50254f8a1c8d5e222a8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Materials using Guid(7ca321a86db50254f8a1c8d5e222a8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ea0797bedfc9f1c5a619ef9a92a746e') in 0.003545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019225 seconds.
+  path: Assets/Low Poly Free Vegetation Kit/Materials
+  artifactKey: Guid(a21db3b1f6f12454c80b405c29cb4a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Free Vegetation Kit/Materials using Guid(a21db3b1f6f12454c80b405c29cb4a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2eab5f1b9daedd67b993829c3734d3f') in 0.003510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.038006 seconds.
+  path: Assets/Low Poly Free Vegetation Kit/Meshes/Flowers.fbx
+  artifactKey: Guid(cca983b037ca1f64a8a1fb9d9eb49bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Free Vegetation Kit/Meshes/Flowers.fbx using Guid(cca983b037ca1f64a8a1fb9d9eb49bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cba156a6d8336b0ccea61bc9505a699') in 0.078203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034274 seconds.
+  path: Assets/Low Poly Free Vegetation Kit/Textures/Plant Leaf.png
+  artifactKey: Guid(416e3d5a7443fc244a9c81750a12124e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Free Vegetation Kit/Textures/Plant Leaf.png using Guid(416e3d5a7443fc244a9c81750a12124e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a0a8ccd59678979e55d253768a4761') in 0.030194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008192 seconds.
+  path: Assets/Low Poly Free Vegetation Kit/Meshes/Trees.fbx
+  artifactKey: Guid(35d16cd66330b3d478844c42dfc1912a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Free Vegetation Kit/Meshes/Trees.fbx using Guid(35d16cd66330b3d478844c42dfc1912a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1701c13cd6afdb759f3c8022efca8852') in 0.121238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006849 seconds.
+  path: Assets/Low Poly Free Vegetation Kit/Materials/Plane.mat
+  artifactKey: Guid(bf347159a764ca24981a4a8fdde2dcec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Free Vegetation Kit/Materials/Plane.mat using Guid(bf347159a764ca24981a4a8fdde2dcec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f0642b164c57095fc46c67c14be31a') in 0.022981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008057 seconds.
+  path: Assets/Flashlight/Misc/Flashlight.fbm/LP_FlashLight_OP.png
+  artifactKey: Guid(89a6e141afc6af84a9de3264a49edbd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Misc/Flashlight.fbm/LP_FlashLight_OP.png using Guid(89a6e141afc6af84a9de3264a49edbd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0136bad5ce486b9b7e8225bb35a0941e') in 0.039282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009262 seconds.
+  path: Assets/Low Poly Free Vegetation Kit/Textures/Grass.png
+  artifactKey: Guid(39caea544382b0341be6de6e97b8114d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Free Vegetation Kit/Textures/Grass.png using Guid(39caea544382b0341be6de6e97b8114d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef8af7814e184cba3a7eec209fe2be26') in 0.027919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003688 seconds.
+  path: Assets/XRI/Settings/Resources
+  artifactKey: Guid(77088f455d56799498290e9c7659ad30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI/Settings/Resources using Guid(77088f455d56799498290e9c7659ad30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79f323a2dc751792aa223e11b1552040') in 0.010373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.037863 seconds.
+  path: Assets/Low Poly Free Vegetation Kit/Meshes/Mountain.fbx
+  artifactKey: Guid(07f7693a22c302246b83507415e1c01f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Free Vegetation Kit/Meshes/Mountain.fbx using Guid(07f7693a22c302246b83507415e1c01f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '158c867dee3e7d37b5a54ceb6a0f5be0') in 0.036950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024866 seconds.
+  path: Assets/Flashlight/Materials/FlashlightReflectorMaterial.mat
+  artifactKey: Guid(0eb0f996ba805c34c9e5dc4df46deb6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Materials/FlashlightReflectorMaterial.mat using Guid(0eb0f996ba805c34c9e5dc4df46deb6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac8c53104ca14453e5fca60a7956dab') in 0.037484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022168 seconds.
+  path: Assets/XRI
+  artifactKey: Guid(97467227c236651478b449b34392d16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI using Guid(97467227c236651478b449b34392d16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf7d14cb586a129edddf25416b2a04a') in 0.010876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.069856 seconds.
+  path: Assets/Samples
+  artifactKey: Guid(1fe876589ee217141976776986957636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples using Guid(1fe876589ee217141976776986957636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b3933e0ed1d598371a5bbeaa431889') in 0.010066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026123 seconds.
+  path: Assets/Flashlight/Materials/GreyMaterial.mat
+  artifactKey: Guid(0dadad7847eae04468663f7258d176b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Materials/GreyMaterial.mat using Guid(0dadad7847eae04468663f7258d176b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '129a4313a242e7ab3b810ac9e22e7087') in 0.022168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016066 seconds.
+  path: Assets/FantasyHammerAndShield/FantasyHammerAndShield_MatTextures
+  artifactKey: Guid(ef086dea046e57e4bae8f0967ff09fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHammerAndShield/FantasyHammerAndShield_MatTextures using Guid(ef086dea046e57e4bae8f0967ff09fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c7c9cc2cb121c21156aa63419c0a7ef') in 0.010123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.107378 seconds.
+  path: Assets/Low Poly Free Vegetation Kit/Meshes/Plants.fbx
+  artifactKey: Guid(de4845ea01e8a9f4fb204f6027315675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Free Vegetation Kit/Meshes/Plants.fbx using Guid(de4845ea01e8a9f4fb204f6027315675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dbfa0fcb9d85f980e677ccf3f8bcbf7') in 0.076408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028029 seconds.
+  path: Assets/Flashlight/Textures/FlashLight_Opac.png
+  artifactKey: Guid(6b1b00d8b882108488ba17c390b2ad65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Textures/FlashLight_Opac.png using Guid(6b1b00d8b882108488ba17c390b2ad65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cbde96a7285e57ed5f4e2634bee2b3e') in 0.073323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001564 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.1.1
+  artifactKey: Guid(f463cecf1799f4c4fad28b279bb7001d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.1.1 using Guid(f463cecf1799f4c4fad28b279bb7001d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d3aa5a2aa4cdc4a0e17ddfe4cc2d2ce') in 0.010090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.176648 seconds.
+  path: Assets/Low Poly Free Vegetation Kit/Textures/Pine Tree Branch.png
+  artifactKey: Guid(eef8afe969073cd4d9cfb6cc540b93aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Free Vegetation Kit/Textures/Pine Tree Branch.png using Guid(eef8afe969073cd4d9cfb6cc540b93aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb4bb980ee82e3c8116cae80bcdc97c') in 0.030081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022014 seconds.
+  path: Assets/Low Poly Free Vegetation Kit/Textures
+  artifactKey: Guid(d8a04c2047ec093488d95f2498c8c592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Free Vegetation Kit/Textures using Guid(d8a04c2047ec093488d95f2498c8c592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0bf33967a632bf28084c3ad7ab016b6') in 0.009877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017259 seconds.
+  path: Assets/Flashlight/Textures/Flashlight_Cookie.png
+  artifactKey: Guid(29135c4c1148bc44883907ae1a731420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Textures/Flashlight_Cookie.png using Guid(29135c4c1148bc44883907ae1a731420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f44e9369851b42d6aa867e2451e930e') in 0.023192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010624 seconds.
+  path: Assets/Flashlight/Flashlight_Gold/Materials/FlashlightBaseMaterialColor.mat
+  artifactKey: Guid(e413ebf855bf78c45b56f8cd788f0dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Flashlight_Gold/Materials/FlashlightBaseMaterialColor.mat using Guid(e413ebf855bf78c45b56f8cd788f0dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cddbdc646085b212adfd11da22b22d7') in 0.176969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003129 seconds.
+  path: Assets/XR/Loaders
+  artifactKey: Guid(17ae6da4159244541a287032028145ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Loaders using Guid(17ae6da4159244541a287032028145ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '968371bd60adb3d1ddf53b8e123fc49c') in 0.009872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.060473 seconds.
+  path: Assets/Low Poly Free Vegetation Kit/Meshes/Rocks.fbx
+  artifactKey: Guid(b028c90d3d17c7849a589391cd891c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Free Vegetation Kit/Meshes/Rocks.fbx using Guid(b028c90d3d17c7849a589391cd891c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb7be8fb78f2c21fd5b1f7646a695e5') in 0.277701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003458 seconds.
+  path: Assets/Low Poly Free Vegetation Kit/Scenes
+  artifactKey: Guid(31c88774902519344ba509dce367ff1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Free Vegetation Kit/Scenes using Guid(31c88774902519344ba509dce367ff1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d2da42018914b3090e5a592d3500998') in 0.010075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.131110 seconds.
+  path: Assets/Low Poly Free Vegetation Kit/Materials/Pine Tree Branch.mat
+  artifactKey: Guid(9c0a1cda53d749f40a30a84ed1657377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Free Vegetation Kit/Materials/Pine Tree Branch.mat using Guid(9c0a1cda53d749f40a30a84ed1657377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feba43b26646dd8131db865474edcafe') in 0.027637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.071789 seconds.
+  path: Assets/Flashlight/Flashlight_Gold/Textures/FlashLight_SpecGlossA.tga
+  artifactKey: Guid(e24274bffd57fe64b9d132bb24d5e9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Flashlight_Gold/Textures/FlashLight_SpecGlossA.tga using Guid(e24274bffd57fe64b9d132bb24d5e9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bffbd5ce4c64761940c18560f8572021') in 0.073996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002182 seconds.
+  path: Assets/Flashlight/Flashlight_Gold/Textures
+  artifactKey: Guid(8a80b6f758b2821499d31eb59ab5324d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Flashlight_Gold/Textures using Guid(8a80b6f758b2821499d31eb59ab5324d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af9ee5de80e76451e6a47273775c9ed2') in 0.003358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006186 seconds.
+  path: Assets/Low Poly Free Vegetation Kit/Meshes/Branches.fbx
+  artifactKey: Guid(95cc45b7a6c86ed4daa4a2e32f6a0e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Free Vegetation Kit/Meshes/Branches.fbx using Guid(95cc45b7a6c86ed4daa4a2e32f6a0e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7942e152ab1eb0bce520e469fee72f86') in 0.072189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020850 seconds.
+  path: Assets/Flashlight
+  artifactKey: Guid(9e28e68285203344e9fd110968b8b179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight using Guid(9e28e68285203344e9fd110968b8b179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '169c73969993ffcdacc8c5e302ca5f12') in 0.004131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001608 seconds.
+  path: Assets/Flashlight/Misc/Flashlight.fbm
+  artifactKey: Guid(88ec82aa2fef1714c8309ce9daa1d73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Misc/Flashlight.fbm using Guid(88ec82aa2fef1714c8309ce9daa1d73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cbeb69b63e984cacd5c64526bc34e18') in 0.010188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.100083 seconds.
+  path: Assets/Low Poly Free Vegetation Kit/Textures/Color Pallet.png
+  artifactKey: Guid(3a3ec579ae0a6cd458d30670586415b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Free Vegetation Kit/Textures/Color Pallet.png using Guid(3a3ec579ae0a6cd458d30670586415b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed09aafab2e4f8310de154ad52ee04b8') in 0.025234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002219 seconds.
+  path: Assets/Low Poly Free Vegetation Kit/Prefabs/Vegetation
+  artifactKey: Guid(f3b87a002ea6ee6439efcc0bd65e95ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Free Vegetation Kit/Prefabs/Vegetation using Guid(f3b87a002ea6ee6439efcc0bd65e95ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a0b56f142a3678178b7c839f62bc7c') in 0.010066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.086501 seconds.
+  path: Assets/Scenes/Movement.unity
+  artifactKey: Guid(9b98b31a60f4d6b458254ab64803ed19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Movement.unity using Guid(9b98b31a60f4d6b458254ab64803ed19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce580b387c669a9bd1e0350e969aca32') in 0.010660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006214 seconds.
+  path: Assets/Scenes/Interactable.unity
+  artifactKey: Guid(09d5beb714c21bd4faf5a3e314224a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Interactable.unity using Guid(09d5beb714c21bd4faf5a3e314224a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f49faeba5a63c25003a154993e890e') in 0.009867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.079894 seconds.
+  path: Assets/XR/Settings/OpenXR Editor Settings.asset
+  artifactKey: Guid(03b86ee311c31e54a8f02e5c3ea04694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings/OpenXR Editor Settings.asset using Guid(03b86ee311c31e54a8f02e5c3ea04694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8ff5ee7b4725b3f8fbd786d97c9c2a') in 0.012336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005430 seconds.
+  path: Assets/XR/Loaders/Oculus Loader.asset
+  artifactKey: Guid(3a67295adf8c2674ebc9e01dfbad9180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Loaders/Oculus Loader.asset using Guid(3a67295adf8c2674ebc9e01dfbad9180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f95201f387a744940c0b33594795935c') in 0.011305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.072182 seconds.
+  path: Assets/XR/Settings/Oculus Settings.asset
+  artifactKey: Guid(829ab7f9fcfefc143af5c857fcc5a04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings/Oculus Settings.asset using Guid(829ab7f9fcfefc143af5c857fcc5a04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd26f04705174d3a91647c783c1e04ef0') in 0.011769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008082 seconds.
+  path: Assets/Low Poly Free Vegetation Kit/Meshes/Grass Patches.fbx
+  artifactKey: Guid(5f5482c224678d9429071f111f544d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Free Vegetation Kit/Meshes/Grass Patches.fbx using Guid(5f5482c224678d9429071f111f544d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616275f9bf8ee32fde0a22879b8cab0a') in 0.109317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017057 seconds.
+  path: Assets/Low Poly Free Vegetation Kit
+  artifactKey: Guid(cd4eee38dcbccd34e8fb526445e66f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Free Vegetation Kit using Guid(cd4eee38dcbccd34e8fb526445e66f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57e97cd49630ab63cb0ec38590d0e049') in 0.010266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.054393 seconds.
+  path: Assets/Flashlight/Flashlight_Gold/Scenes/ExampleScene.unity
+  artifactKey: Guid(67643f2f619eaa648bdedc5d80625849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Flashlight_Gold/Scenes/ExampleScene.unity using Guid(67643f2f619eaa648bdedc5d80625849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6999615c097f657db4528a40c61a85c') in 0.010088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006383 seconds.
+  path: Assets/Low Poly Free Vegetation Kit/Materials/Grass.mat
+  artifactKey: Guid(4675dd6e2ff32b14b9d1e1c5375dd872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Free Vegetation Kit/Materials/Grass.mat using Guid(4675dd6e2ff32b14b9d1e1c5375dd872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8bccc3b39326df1f39772ff39215936') in 0.027015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007826 seconds.
+  path: Assets/Low Poly Free Vegetation Kit/Meshes/Mushrooms.fbx
+  artifactKey: Guid(c43f8078a174987439a67ccaab3be883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Free Vegetation Kit/Meshes/Mushrooms.fbx using Guid(c43f8078a174987439a67ccaab3be883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb7883abb97920fa0b5fa8d0fd2bf9e') in 0.082267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010313 seconds.
+  path: Assets/Low Poly Free Vegetation Kit/Materials/Plant Leaf.mat
+  artifactKey: Guid(fc92c30a2942a8944a1b15140e3f9cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Free Vegetation Kit/Materials/Plant Leaf.mat using Guid(fc92c30a2942a8944a1b15140e3f9cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac815140f35c5fecb1ab4ba49f24cba') in 0.026813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018081 seconds.
+  path: Assets/Flashlight/Materials/FlashlightBulbMaterial.mat
+  artifactKey: Guid(bb59d9535c521eb48994e16487f7b2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Materials/FlashlightBulbMaterial.mat using Guid(bb59d9535c521eb48994e16487f7b2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81fbf1da41e4ad4f1b306d739ce0059d') in 0.025475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022447 seconds.
+  path: Assets/Low Poly Free Vegetation Kit/Prefabs/Terrains
+  artifactKey: Guid(fd427661ef22ee94bb8df7ea17974fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Free Vegetation Kit/Prefabs/Terrains using Guid(fd427661ef22ee94bb8df7ea17974fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '184cf7caa352c85bdc41bcdf3c8fc7c6') in 0.010002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.064819 seconds.
+  path: Assets/XR/Loaders/Open XR Loader.asset
+  artifactKey: Guid(49e1675e3985ba54195c90ae65664175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Loaders/Open XR Loader.asset using Guid(49e1675e3985ba54195c90ae65664175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9ad561cf7dfb864ea83d17d47c1dc44') in 0.016387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001890 seconds.
+  path: Assets/Flashlight/Misc
+  artifactKey: Guid(c553d9f6825eb9e4f85cacc719049e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Misc using Guid(c553d9f6825eb9e4f85cacc719049e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad698f92807b1a563a293824d5fc7cc') in 0.010287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012426 seconds.
+  path: Assets/Flashlight/Misc/Flashlight.fbm/LP_FlashLight_RFMorSP2.png
+  artifactKey: Guid(53688634df7f14244888ea5735f67089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Misc/Flashlight.fbm/LP_FlashLight_RFMorSP2.png using Guid(53688634df7f14244888ea5735f67089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f141ca41753f4eef6b38906b40ac9e1f') in 0.081838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007161 seconds.
+  path: Assets/Low Poly Free Vegetation Kit/Materials/Color Pallet.mat
+  artifactKey: Guid(b725cacc7387b1f4e991c4bdfcd832c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Free Vegetation Kit/Materials/Color Pallet.mat using Guid(b725cacc7387b1f4e991c4bdfcd832c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6a9b91de053da252249efc7429ac47') in 0.027485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007892 seconds.
+  path: Assets/Low Poly Free Vegetation Kit/Meshes/Terrains.fbx
+  artifactKey: Guid(aa44418d4a8bc2b4190b561873077180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Free Vegetation Kit/Meshes/Terrains.fbx using Guid(aa44418d4a8bc2b4190b561873077180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f39a544d0b3b713489bfd21e28e9eb4') in 0.299079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021157 seconds.
+  path: Assets/Flashlight/Flashlight_Gold/Scenes
+  artifactKey: Guid(6b833ce22577fba46b7d72fe9e3f75ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Flashlight_Gold/Scenes using Guid(6b833ce22577fba46b7d72fe9e3f75ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd939d0af09a10e56998eedf82e5edb8') in 0.003382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020893 seconds.
+  path: Assets/Flashlight/Flashlight_Gold/Textures/FlashLight_DFopac.tga
+  artifactKey: Guid(cf64c9ca3b5d59948b24b2bbfc7de172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Flashlight_Gold/Textures/FlashLight_DFopac.tga using Guid(cf64c9ca3b5d59948b24b2bbfc7de172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46631280d00adf6caef5786abfd6cdd3') in 0.074082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001674 seconds.
+  path: Assets/Low Poly Free Vegetation Kit/Meshes
+  artifactKey: Guid(490be5dcc52958e43ab65270561df11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Free Vegetation Kit/Meshes using Guid(490be5dcc52958e43ab65270561df11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68dd68b5ddb0995fdfe79c32cbc532a3') in 0.010265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015646 seconds.
+  path: Assets/Flashlight/Misc/Flashlight.fbm/FlashLight_NM.png
+  artifactKey: Guid(b4998e8739a2d2e4bb9d4e4a6e9db3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Misc/Flashlight.fbm/FlashLight_NM.png using Guid(b4998e8739a2d2e4bb9d4e4a6e9db3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba40f923f9c878cd815e53d4d17894c2') in 0.087814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1280.202788 seconds.
+  path: Packages/com.unity.xr.openxr/package.json
+  artifactKey: Guid(763acfe7f0d8c4ac9a7bc96e08f0face) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.openxr/package.json using Guid(763acfe7f0d8c4ac9a7bc96e08f0face) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '605d9284c46889f032628973aff631af') in 0.055320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.495812 seconds.
+  path: Packages/com.unity.xr.oculus/package.json
+  artifactKey: Guid(8cf6f256af772d24eab8f4be77c7fe43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.oculus/package.json using Guid(8cf6f256af772d24eab8f4be77c7fe43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8b5f2e41216f62082539f8dd4901628') in 0.012799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.768717 seconds.
+  path: Packages/com.unity.xr.openxr/OculusQuest
+  artifactKey: Guid(69fe872a5c95e470195258983457768c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.openxr/OculusQuest using Guid(69fe872a5c95e470195258983457768c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bfe3617c1377a02658b1e3fb2e6dc56') in 0.013647 seconds 
